@@ -1,1 +1,1 @@
-# web_api_products
+Olá, essa é minha primeira API utilizando C#, com a versão 6 do .NET, fiz através de curso prático para aprendizado da linguagem e estou muito feliz com a evolução que estou conseguindo.
