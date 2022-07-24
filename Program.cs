@@ -2,6 +2,8 @@ using Microsoft.AspNetCore.Mvc;
 
 var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
+var configuration = app.Configuration;
+ProductRepository.Init(configuration);
 
 //salvar um produto através do Body
 app.MapPost("/products", (Product product) => {
@@ -35,12 +37,14 @@ app.Run();
 
 //fonte de dados
 public static class ProductRepository {
-    public static List<Product> Products { get; set; }
+    public static List<Product> Products { get; set; } = Products = new List<Product>();
+
+    public static void Init(IConfiguration configuration) {
+        var products = configuration.GetSection("Products").Get<List<Product>>();
+        Products = products;
+    }
 
     public static void Add(Product product) {
-        if(Products == null)
-            Products = new List<Product>();
-
         Products.Add(product);
     }
     public static Product GetBy(string code) {

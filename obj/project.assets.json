@@ -7624,11 +7624,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Leandro\\Documents\\Coding\\api\\api.csproj",
+      "projectUniqueName": "C:\\Users\\Leandro\\Documents\\api\\api.csproj",
       "projectName": "api",
-      "projectPath": "C:\\Users\\Leandro\\Documents\\Coding\\api\\api.csproj",
+      "projectPath": "C:\\Users\\Leandro\\Documents\\api\\api.csproj",
       "packagesPath": "C:\\Users\\Leandro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Leandro\\Documents\\Coding\\api\\obj\\",
+      "outputPath": "C:\\Users\\Leandro\\Documents\\api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Leandro\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7680,7 +7680,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }
