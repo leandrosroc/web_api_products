@@ -62,3 +62,4 @@ C:\Users\Leandro\Documents\api\obj\Debug\net6.0\refint\api.dll
 C:\Users\Leandro\Documents\api\obj\Debug\net6.0\api.pdb
 C:\Users\Leandro\Documents\api\obj\Debug\net6.0\api.genruntimeconfig.cache
 C:\Users\Leandro\Documents\api\obj\Debug\net6.0\ref\api.dll
+C:\Users\Leandro\Documents\api\bin\Debug\net6.0\appsettings.Staging.json
